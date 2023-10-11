@@ -50,7 +50,7 @@ const NewData = groupDataByDate(yourData);
             <div class="card text-center mb-3 mt-4" style="width: 80vw; margin: auto;  background-color:  rgba(255, 255, 255,0.8 ); border: solid 2px rgba(255, 255, 255, 0.8)">
                 <div class="card text-center mb-3 mt-4" style="width: 80%; margin: auto;  background-color:  rgba(255, 255, 255,0.8 ); border: solid 2px rgba(148, 147, 147, 0.5)">
                     <div class="card-body">
-                        <h2 class="card-title">{{ weatherStore.weatherData.city.name }}</h2>
+                        <h2 class="card-title">พยากรณ์อากาศ 5 วัน ของ {{ weatherStore.weatherData.city.name }}</h2>
                     </div>
                 </div>
                 <div class="card text-center mb-3 mt-2 dayloop" style="width: 95%; margin: auto;  background-color:  rgba(255, 255, 255,0.5 ); border: solid 2px rgba(148, 147, 147, 0.5);" v-for="(date, dateData) in NewData" :key="date">
