@@ -47,7 +47,7 @@ const NewData = groupDataByDate(yourData);
 <template>
     <div class="frameoutline">
         <div class="frame">
-            <div class="card text-center mb-3 mt-4" style="width: 80vw; margin: auto;  background-color:  rgba(255, 255, 255,0.8 ); border: solid 2px rgba(255, 255, 255, 0.8)">
+            <div class="card text-center mb-3 mt-4" style="width: 80vw; margin: auto;  background-color:  rgb(249, 141, 0); border: solid 2px rgba(255, 255, 255, 0.8)">
                 <div class="card text-center mb-3 mt-4" style="width: 80%; margin: auto;  background-color:  rgba(255, 255, 255,0.8 ); border: solid 2px rgba(148, 147, 147, 0.5)">
                     <div class="card-body">
                         <h2 class="card-title">พยากรณ์อากาศ 5 วัน ของ {{ weatherStore.weatherData.city.name }}</h2>
@@ -95,14 +95,10 @@ const NewData = groupDataByDate(yourData);
         <RouterLink to="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
           <svg class="bi" width="30" height="24"></svg>
         </RouterLink>
-        <span class="mb-3 mb-md-0 text-body-secondary">© Thonthus Prangpetch 6504101343</span>
+        <span class="mb-3 mb-md-0 text-body-secondary">6504101344</span>
       </div>
 
-      <ul class="nav col-md-2 justify-content-end list-unstyled d-flex mr-3">
-        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/ts_thus.pp/" target="_blank"><img src="@/assets/instagram.png" alt="ig" width="31" height="31"></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://facebook.com/thonthus.prangpech/" target="_blank"><img src="@/assets/febe.png" alt="fb" width="30" height="30"></a></li>
-        <svg class="bi" width="30" height="24"></svg>
-      </ul>
+   
     </footer>
 </template>
 
